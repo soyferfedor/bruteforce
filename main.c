@@ -37,7 +37,7 @@ printf("%p\n", password);
 
 
 void readPassword(char* password) {
-	unsigned int N = 30;								// max password size
+	unsigned int N = 40;								// max password size
 	char* passwordCopy = password;
 printf("%p\n", password);
 	password = malloc(N*sizeof(password[0]));
